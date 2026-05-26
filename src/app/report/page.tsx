@@ -130,7 +130,8 @@ export default function ReportPage() {
                     <span className="text-xs font-medium text-orange-400 mr-2">
                       {categoryLabels[item.category]}
                     </span>
-                    <span className="text-sm text-[#f0f0f0] font-medium">{item.title}</span>
+                    <span className="text-sm text-[#f0f0f0] font-medium">{item.titleZh}</span>
+                    <span className="text-xs text-[#888888] ml-1">({item.title})</span>
                     <span className="text-xs text-[#666666] ml-2">@{item.author}</span>
                   </div>
                   <div className="flex items-center gap-3 shrink-0">
@@ -178,7 +179,8 @@ export default function ReportPage() {
                       <span className="text-xs font-medium text-[#888888] mr-2">
                         {categoryLabels[item.category]}
                       </span>
-                      <span className="text-sm text-[#f0f0f0]">{item.title}</span>
+                      <span className="text-sm text-[#f0f0f0]">{item.titleZh}</span>
+                      <span className="text-xs text-[#888888] ml-1">({item.title})</span>
                       <span className="text-xs text-[#666666] ml-2">@{item.author}</span>
                     </div>
                     <div className="flex items-center gap-3 shrink-0">
